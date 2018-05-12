@@ -30,6 +30,7 @@
 		BC5DDDCB20A6B4BE008F1EDF /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		BC5DDDCC20A6B4BE008F1EDF /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
 		BC5DDDCD20A6B4BE008F1EDF /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		BCA2F4C120A6C3E5002E7865 /* MMDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDrawer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		BC5DDDBC20A6B476008F1EDF /* MMDrawerController */ = {
 			isa = PBXGroup;
 			children = (
+				BCA2F4C120A6C3E5002E7865 /* MMDrawer.h */,
 				BC5DDDC920A6B4BE008F1EDF /* MMDrawerBarButtonItem.h */,
 				BC5DDDCB20A6B4BE008F1EDF /* MMDrawerBarButtonItem.m */,
 				BC5DDDC520A6B4BE008F1EDF /* MMDrawerController.h */,
