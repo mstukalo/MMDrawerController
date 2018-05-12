@@ -17,6 +17,7 @@
 		BC5DDDD520A6B4BE008F1EDF /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5DDDCC20A6B4BE008F1EDF /* MMDrawerVisualState.m */; };
 		BC5DDDD620A6B4BE008F1EDF /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5DDDCD20A6B4BE008F1EDF /* UIViewController+MMDrawerController.m */; };
 		BCA2F4C320A6C5D9002E7865 /* modulemap in Resources */ = {isa = PBXBuildFile; fileRef = BCA2F4C220A6C5D9002E7865 /* modulemap */; };
+		BCA2F4C420A6CD99002E7865 /* MMDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA2F4C120A6C3E5002E7865 /* MMDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA2F4C420A6CD99002E7865 /* MMDrawer.h in Headers */,
 				BC5DDDD020A6B4BE008F1EDF /* MMDrawerVisualState.h in Headers */,
 				BC5DDDCE20A6B4BE008F1EDF /* MMDrawerController.h in Headers */,
 				BC5DDDD220A6B4BE008F1EDF /* MMDrawerBarButtonItem.h in Headers */,
