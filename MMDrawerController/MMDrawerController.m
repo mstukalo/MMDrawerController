@@ -695,6 +695,8 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
     return NO;
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-implementations"
 -(BOOL)shouldAutomaticallyForwardRotationMethods{
     return NO;
 }
@@ -702,6 +704,7 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
 -(BOOL)automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers{
     return NO;
 }
+#pragma clang diagnostic pop
 
 #pragma mark - View Lifecycle
 
@@ -762,6 +765,8 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
 
 #pragma mark Rotation
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-implementations"
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
     [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
     //If a rotation begins, we are going to cancel the current gesture and reset transform and anchor points so everything works correctly
@@ -813,11 +818,14 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
         }
     }
 }
+#pragma clang diagnostic pop
 
 -(BOOL)shouldAutorotate{
     return YES;
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-implementations"
 -(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation{
     [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
     if ([self needsManualForwardingOfRotationEvents]){
@@ -826,6 +834,7 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
         }
     }
 }
+#pragma clang diagnostic pop
 
 #pragma mark - Setters
 -(void)setRightDrawerViewController:(UIViewController *)rightDrawerViewController{
